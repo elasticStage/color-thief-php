@@ -1,20 +1,20 @@
 {
-    "name": "ksubileau/color-thief-php",
+    "name": "elasticstage/color-thief-php",
     "type": "library",
-    "homepage" : "http://www.kevinsubileau.fr/projets/color-thief-php",
+    "homepage" : "https://elasticstage.com",
     "description": "Grabs the dominant color or a representative color palette from an image.",
     "keywords": ["color", "thief", "php", "dominant", "palette"],
     "license": "CC-BY-2.5",
 
     "authors": [
         {
-            "name": "Kevin Subileau",
-            "homepage": "http://www.kevinsubileau.fr"
+            "name": "Toby Powell-Blyth",
+            "homepage": "https://elasticstage.com"
         }
     ],
 
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=8.0"
     },
 
     "require-dev": {

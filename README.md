@@ -16,7 +16,7 @@ It's a PHP port of the [Color Thief Javascript library](http://github.com/lokesh
 
 ## Requirements
 
-- PHP >= 5.4 or >= PHP 7.0
+- PHP >8.0
 - One or more PHP extensions for image processing:
   - GD >= 2.0
   - Imagick >= 2.0 (but >= 3.0 for CMYK images)
@@ -80,14 +80,15 @@ The `$quality` and `$area` arguments work as in the previous function.
 ## Credits and license
 
 ### Author
-by Kevin Subileau
-[kevinsubileau.fr](http://www.kevinsubileau.fr/?utm_campaign=github&utm_term=color-thief-php_readme)
+by Toby Powell-Blyth
 
 Based on the fabulous work done by Lokesh Dhakar
+[kevinsubileau.fr](http://www.kevinsubileau.fr) 
 [lokeshdhakar.com](http://www.lokeshdhakar.com)
 [twitter.com/lokesh](http://twitter.com/lokesh)
 
 ### Thanks
+Kevin Subileau - For [porting to PHP 8](https://github.com/ksubileau/color-thief-php)
 * Lokesh Dhakar - For creating the [original project](http://github.com/lokesh/color-thief).
 * Nick Rabinowitz - For creating quantize.js.
 
